@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.App {
+  height: 100vh;
+}
+
+.ActionsContainer {
+  border: Solid 4px white;
+  border-radius: 10px;
+
+  flex-direction: column;
+
+  padding: 20px;
+  gap: 20px;
+}
+
+button {
+  width: 120px;
+  height: 120px;
+  font-size: 80px;
+}
+
+.ListContainer {
+  height: 300px;
+  width: 200px;
+  border: Solid 4px white;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.ListItems {
+  list-style: none;
+  color: white;
+  font-size: 30px;
+}
